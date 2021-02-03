@@ -27,4 +27,50 @@
 // document.querySelector('#heading').id = 'mainHeading';
 
 // Styles can also be changed using javascript.
-let headingColor = document.querySelector('#heading').style.color = 'blue';
+// let headingColor = document.querySelector('#heading').style.color = 'blue';
+
+// Class Lists
+// An element can be given a specific class by using the following:
+// const h1 = document.querySelector('h1');
+// h1.classList.add('purple');
+
+// Appending a child element
+// First the elements need to be created, for example if I wanted to make an image element.
+
+const newImg = document.createElement('img');
+newImg.src = 'http://www.todayifoundout.com/wp-content/uploads/2017/08/Queens-Guard.jpg'; // The image source is then added to the new img I created.
+
+// You then need to declare where the new element is going to be appended to
+
+document.body.appendChild(newImg);
+
+// Elements can also be removed from a page.
+const removeImg = document.querySelector('img');
+removeImg.remove();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
